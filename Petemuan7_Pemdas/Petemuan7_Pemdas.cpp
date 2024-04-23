@@ -20,5 +20,8 @@ class matakuliah {
 		string namaMk;
 		int sks;
 	public:
+		void input() {
+
+		}
 
 };
