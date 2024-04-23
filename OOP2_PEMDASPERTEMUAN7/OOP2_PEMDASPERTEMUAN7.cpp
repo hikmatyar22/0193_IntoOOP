@@ -4,25 +4,29 @@ using namespace std;
 class bangunDatar {
 
 	//akses  modifier
-	private :
-		float panjang, lebar;
-	public :
-		float luas;
+private:
+	float panjang, lebar;
+public:
+	float luas;
 
-		void input() { //methode input persegi panjang
-			cout << "Masukan Panjangnya = ";
-			cin >> panjang;
-			cout << "Masukan Lebarnya = ";
-			cin >> lebar;
-		}
+	void input() { //methode input persegi panjang
+		cout << "Masukan Panjangnya = ";
+		cin >> panjang;
+		cout << "Masukan Lebarnya = ";
+		cin >> lebar;
+	}
 
-		float hitungLuas() {
-			return panjang * lebar;
-		}
+	float hitungLuas() {
+		return panjang * lebar;
+	}
 
-		void display() {
-			cout << "Panjangnya = " << panjang << endl;
-			cout << "Lebarnya = " << lebar << endl;
-			cout << "luasnya = " << hitungLuas() << endl;
-		}
+	void display() {
+		cout << "Panjangnya = " << panjang << endl;
+		cout << "Lebarnya = " << lebar << endl;
+		cout << "luasnya = " << hitungLuas() << endl;
+	}
 };
+
+int main() {
+	
+}
